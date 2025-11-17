@@ -14,8 +14,8 @@ export function Navbar() {
         <nav className="navbar sticky-top">
             <Container className="d-flex justify-content-between align-items-center">
                 <NavLink to="/" className="navbar-brand">
-                    <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" />TWS 
-                    <span className="text-primary text-color">DevOps Junoon (Batch 9)</span>
+                    <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" />LWV 
+                    <span className="text-primary text-color">DevOps Practice</span>
                 </NavLink>
 
                 <div className="d-flex align-items-center gap-3">
@@ -30,7 +30,7 @@ export function Navbar() {
 
                     <div className="d-flex align-items-center gap-2">
                         <a 
-                            href="https://github.com/LondheShubham153/online_shop_hackathon" 
+                            href="https://github.com/solankivishnu63/Shopping_App" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="social-button"
@@ -39,7 +39,7 @@ export function Navbar() {
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                         <a 
-                            href="https://www.trainwithshubham.com/s/pages/junoonbatch9" 
+                            href="" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="social-button"
@@ -60,3 +60,4 @@ export function Navbar() {
         </nav>
     );
 }
+
